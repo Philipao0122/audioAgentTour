@@ -1,7 +1,21 @@
-huggingface-hub>=0.16.0
-python-dotenv>=1.0.0
-streamlit>=1.20.0
-soundfile>=0.12.1
-tenacity>=8.2.2
-requests>=2.28.0
-python-multipart>=0.0.6
+# Core dependencies
+huggingface-hub==0.16.4
+python-dotenv==1.0.0
+requests==2.31.0
+python-multipart==0.0.6
+
+# Audio processing
+soundfile==0.12.1
+librosa==0.10.0
+numpy==1.24.3
+
+# Utils
+tenacity==8.2.2
+
+# Web framework (si estás usando FastAPI/Starlette)
+fastapi==0.95.1
+uvicorn==0.22.0
+pydantic==1.10.7
+
+# Para manejo de archivos temporales
+tempfile==0.0.1

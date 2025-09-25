@@ -3,19 +3,10 @@
   "builds": [
     {
       "src": "simple_audio_tour.py",
-      "use": "@vercel/python@5.9.1",
-      "config": { 
-        "maxLambdaSize": "50mb",
-        "runtime": "python3.9",
-        "includeFiles": ["requirements.txt"],
-        "excludeFiles": ["**/audio_outputs/**", "**/__pycache__/**", "**/*.log", "**/*.wav", "**/*.mp3"]
-      }
+      "use": "@vercel/python"
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "simple_audio_tour.py"
-    }
+    { "src": "/(.*)", "dest": "/simple_audio_tour.py" }
   ]
 }
