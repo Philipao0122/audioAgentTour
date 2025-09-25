@@ -1,0 +1,15 @@
+{
+  "builds": [
+    {
+      "src": "simple_audio_tour.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "simple_audio_tour.py"
+    }
+  ]
+}
