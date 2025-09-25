@@ -9,6 +9,8 @@ audio_outputs/
 
 # Ignore Python cache
 __pycache__/
+*.py[cod]
+*$py.class
 
 # Ignore Git directory
 .git/
@@ -16,3 +18,57 @@ __pycache__/
 # Ignore backup and copy files
 *.backup.py
 * copy.py
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore large files
+*.wav
+*.mp3
+*.mp4
+*.zip
+*.tar.gz
+*.pkl
+*.h5
+*.pt
+*.pth
+*.bin
+*.onnx
+*.pb
+*.tflite
+
+# Ignore datasets and models
+*.onnx
+*.pth
+*.h5
+*.hdf5
+*.pt
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+*.sql
+
+# Ignore Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Ignore build and distribution directories
+build/
+dist/
+*.egg-info/
+
+# Ignore testing
+.coverage
+htmlcov/
