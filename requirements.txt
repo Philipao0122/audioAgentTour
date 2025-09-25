@@ -1,21 +1,21 @@
-# Core dependencies
-huggingface-hub==0.16.4
-python-dotenv==1.0.0
-requests==2.31.0
-python-multipart==0.0.6
+# Dependencias principales
+huggingface-hub>=0.16.0
+python-dotenv>=1.0.0
+requests>=2.28.0
+python-multipart>=0.0.6
+soundfile>=0.12.1
+tenacity>=8.2.2
 
-# Audio processing
-soundfile==0.12.1
-librosa==0.10.0
-numpy==1.24.3
+# Streamlit
+streamlit>=1.20.0
 
-# Utils
-tenacity==8.2.2
+# Supabase
+supabase>=1.0.0
+postgrest-python>=0.10.0
+gotrue>=0.7.0
+realtime>=0.1.12
 
-# Web framework (si estás usando FastAPI/Starlette)
-fastapi==0.95.1
-uvicorn==0.22.0
-pydantic==1.10.7
-
-# Para manejo de archivos temporales
-tempfile==0.0.1
+# Dependencias comunes adicionales
+numpy>=1.21.0
+pandas>=1.3.0
+python-jose>=3.3.0
