@@ -48,6 +48,32 @@ ENV/
 .DS_Store?
 ._*
 .Spotlight-V100
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Vercel (si quedan archivos)
+.vercel/
+vercel.json
+vercel-build.sh
+
+# Archivos de audio temporales
+*.wav
+*.mp3
+*.ogg
+
+# Archivos de caché
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Archivos de configuración local
+*.local
+
+# Archivos de base de datos
+*.db
+*.sqlite3
 .Trashes
 ehthumbs.db
 Thumbs.db

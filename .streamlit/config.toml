@@ -1,0 +1,18 @@
+[server]
+port = 8501
+# Habilitar CORS es necesario para la autenticación con Supabase
+enableCORS = true
+enableXsrfProtection = true
+
+# Configuración de autenticación
+browser.gatherUsageStats = false
+browser.serverAddress = "localhost"
+
+[theme]
+# Usando colores predefinidos para evitar problemas de validación
+base = "light"
+primaryColor = "#FF4B4B"  # Rojo
+backgroundColor = "#FFFFFF"  # Blanco
+secondaryBackgroundColor = "#F0F2F6"  # Gris claro
+textColor = "#262730"  # Casi negro
+font = "sans serif"
