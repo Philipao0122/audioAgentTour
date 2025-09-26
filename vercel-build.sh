@@ -17,7 +17,7 @@ python -m pip install -r requirements.txt
 # Instalar dependencias específicas para Supabase
 python -m pip install --no-cache-dir \
     'supabase>=1.0.0' \
-    'postgrest-python>=0.10.0' \
+    'postgrest>=0.10.0' \
     'gotrue>=0.7.0' \
     'realtime>=0.1.12' \
     'python-jose>=3.3.0'
