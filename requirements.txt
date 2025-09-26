@@ -5,6 +5,7 @@ requests>=2.28.0
 python-multipart>=0.0.6
 soundfile>=0.12.1
 tenacity>=8.2.2
+openai>=1.0.0
 
 # Streamlit
 streamlit>=1.20.0
